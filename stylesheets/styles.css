@@ -1,0 +1,39 @@
+*{
+    font-family: "Heebo";
+    color: rgb(21, 30, 63)
+}
+
+h1{
+    font-weight: bold;
+    text-align: center;
+    font-family: "Rubik";
+    color: rgb(3, 0, 39)
+}
+
+h2{
+    font-family: "Mulish";
+}
+
+#photo {
+    width: 8vw;
+    height: auto;
+}
+
+body {
+    background-color: rgb(255, 255, 233);
+}
+
+section {
+    border: 0.8pt solid #daddaa;
+    margin: 4px 2px 8px 2px;
+    padding: 1.5% 0.8%;
+    margin-bottom: 1.2rem;
+
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+
+   -webkit-box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60);
+   -moz-box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60);
+   box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60)
+}

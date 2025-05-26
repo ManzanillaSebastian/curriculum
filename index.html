@@ -1,24 +1,44 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <meta name="keywords" content="CV, Curriculum Vitae, perfil, profesional">
     <title>Curriculum</title>
+    <link rel="stylesheet" href="./stylesheets/styles.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Rubik|Mulish|Heebo">
+    
 </head>
 <body>
     <header>
         <h1>Curriculum Vitae</h1>
     </header>
+    <nav>
+        <h2>Índice</h2>
+        <ul>
+            <li><a href="#informacion-personal">Información personal</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#experiencias-proyectos">Experiencias y Proyectos</a></li>
+            <li><a href="#educacion">Educación</a></li>
+            <li><a href="#mas-informacion">Más Información</a></li>
+            <li><a href="#resumen-perfil">Resumen de Perfil</a></li>            
+            <li><a href="#referencias">Referencias</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
     <main>
-        <section>
+        <section id="informacion-personal">
             <h2>Información personal</h2>
             <ul>
+                <img id="photo" src="./fotos/fpf.jpg">            
                 <li><strong>Nombres y Apellidos: </strong>Sebastián Manzanilla Coelho</li>
                 <li><strong>Año de nacimiento: </strong>2005</li>
-                <li><strong>Correo institucional: </strong>sebmanza@espol.edu.ec</li>
+                <li><strong>Nacionalidad: </strong> Venezolano</li>
+                <iframe width="450" height="300" src="https://www.youtube.com/embed/usyDbeY-2_w?si=51suSnkFSuJ2AneK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </ul>
+            
         </section>
-        <section>
+        <section id="habilidades">
             <h2>Habilidades</h2>
             <ul>
                 <li>Dominio del Idioma inglés, nivel <strong>C2</strong></li>
@@ -26,14 +46,19 @@
                 <li>Diseño de páginas web, presentaciones, etc.</li>
             </ul>
         </section>
-        <section>
+        <section id="experiencias-proyectos">
             <h2>Experiencias y Proyectos</h2>
             <ul>
                 <li>Creación de páginas webs</li>
                 <li>Sumador electro-lógico de números binarios</li>
+                <li>Programa de Generación de Mapas Topográficos a partir de Figuras Cónicas</li>
+                <div style="display: flex; gap: 10px;">
+                    <img id="photo" src="./fotos/grafico1.jpeg" width="300" height="300" alt="Gráfico 1">
+                    <img id="photo" src="./fotos/grafico2.jpeg" width="300" height="300" alt="Gráfico 2">
+                </div>
             </ul>
         </section>
-        <section>
+        <section id="educacion">
             <h2>Educación</h2>
             <ol>
                 <li><strong>Educación de 1er nivel: </strong> La Salle: La Colina (2011-2016)</li>
@@ -41,9 +66,84 @@
                 <li><strong>Educación de 3er nivel: </strong> Escuela Politécnica del Litoral (2023-)</li>
             </ol>
         </section>
-        <section>
+        <section id="mas-informacion">
             <h2>Más Información</h2>
-            <a href="https://github.com/ManzanillaSebastian/ManzanillaSebastian/blob/main/README.md">Repositorio Personal</a>
+            <ul>
+                <li><strong>Correo institucional: </strong>sebmanza@espol.edu.ec</li>
+                <li><a href="https://github.com/ManzanillaSebastian/ManzanillaSebastian/blob/main/README.md">Repositorio Personal</a></li>
+                <li>Facultad de Ingeniería en Electricidad y Computación (ESPOL)</li>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.023651929019!2d-79.9678838!3d-2.144626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d7303bb0133cd%3A0x66c18bd9810f31cb!2sFacultad%20de%20Ingenier%C3%ADa%20en%20Electricidad%20y%20Computaci%C3%B3n%20FIEC%20-%20ESPOL!5e0!3m2!1ses-419!2sec!4v1747679603966!5m2!1ses-419!2sec" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </ul>
+        </section>
+
+        <section id="resumen-perfil">
+            <h2>Resumen de Perfil</h2>
+            <table style="border-collapse: collapse; width: 100%;">
+                <tr>
+                    <th></th>
+                    <th>Educación</th>
+                    <th>Habilidades</th>
+                    <th>Proyectos</th>
+                </tr>
+                <tr>
+                    <th>Principal</th>
+                    <td>Escuela Politécnica del Litoral (ESPOL)</td>
+                    <td>Programación (Python, Java, HTML, SQL)</td>
+                    <td>Generación de Mapas Topográficos</td>
+                </tr>
+                <tr>
+                    <th>Secundario</th>
+                    <td>Unidad Educativa Bilingüe Montessori</td>
+                    <td>Inglés C2</td>
+                    <td>Sumador electro-lógico binario</td>
+                </tr>
+                <tr>
+                    <th>Complementario</th>
+                    <td>La Salle: La Colina</td>
+                    <td>Diseño web y presentaciones</td>
+                    <td>Creación de páginas web</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="referencias">
+            <h2>Referencias</h2>
+            <ul>
+                <li><strong>Profesor: </strong> Allan Avendaño</li>
+                <p>"Ya está bien, inclúyame a mi"</p>
+                <p>Profesor del curso de Desarrollo de Aplicciones Web y Móviles</p>
+                <li><strong>Compañero: </strong> Ayman El Salous</li>
+                <p>"Enséñame Python porfa"</p>
+                <p>Compañero de Proyecto: Generación de Mapas Topográficos</p>
+                <li><strong>Compañero: </strong> Reynaldo Saltos</li>
+                <p>"Sebastián el GOAT de POO"</p>
+                <p>Compañero de Proyecto: Sumador electro-lógico binario</p>
+            </ul>
+        </section>
+        
+        <section id="contacto">
+            <h2>Contacto</h2>
+                <form>
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" required><br><br>
+
+                    <label for="email">Correo electrónico:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label>
+                        Motivo de Contacto:
+                        <select name="motivo" id="motivo" required>
+                            <option value="consulta">Consulta</option>
+                            <option value="colaboracion">Colaboración</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </label><br><br>
+
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="4" cols="40" required></textarea><br><br>
+
+                    <button type="submit">Enviar</button>
+                </form>
         </section>
     </main>
 </body>
