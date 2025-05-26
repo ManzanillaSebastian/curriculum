@@ -37,3 +37,38 @@ section {
    -moz-box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60);
    box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60)
 }
+
+nav > ul {
+    display: flex;
+    flex-direction: row; /* Organiza los hijos en una fila horizontal */
+    justify-content: space-evenly; /* Distribuye el espacio de manera equitativa */
+    align-items: center; /* Centra verticalmente los hijos en el eje transversal */
+    gap: 2rem;
+}
+
+section > form {
+    display: grid;
+    grid-template-columns: 1fr; /* Una sola columna que ocupa todo el ancho */
+    width: 100%; /* Opcional: asegura que el formulario use todo el ancho del contenedor */
+    gap: 1rem;
+}
+
+#referencias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;;
+    gap: 1rem;
+}
+
+#referencias > h2 {
+    flex: 0 0 100%;
+}
+
+#referencias > article {
+    flex: 0 0 calc(33.333% - 1rem);
+    /* Hace que los tres artículos ocupen el espacio equitativamente */
+}
+
+#referencias-articles {
+    gap: 1rem;
+}
