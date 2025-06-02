@@ -1,54 +1,48 @@
 *{
     font-family: "Heebo";
-    color: rgb(21, 30, 63)
+    color: rgb(255, 255, 255)
 }
 
 h1{
+    font-size: 6rem;
     font-weight: bold;
     text-align: center;
     font-family: "Rubik";
-    color: rgb(3, 0, 39)
+    color: rgb(103, 186, 253)
 }
 
 h2{
     font-family: "Mulish";
+    font-size: 3rem;
 }
 
 #photo {
-    width: 8vw;
+    width: 12vw;
     height: auto;
 }
 
 body {
-    background-color: rgb(255, 255, 233);
+    background-color: rgb(24, 24, 24);
 }
 
 section {
-    border: 0.8pt solid #daddaa;
     margin: 4px 2px 8px 2px;
     padding: 1.5% 0.8%;
     margin-bottom: 1.2rem;
-
-   -webkit-border-radius: 5px;
-   -moz-border-radius: 5px;
-   border-radius: 5px;
-
-   -webkit-box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60);
-   -moz-box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60);
-   box-shadow: 3px 3px 1px 0px rgba(235, 234, 234, 0.60)
+    background-color: rgb(27, 27, 27);
 }
 
 nav > ul {
     display: flex;
-    flex-direction: row; /* Organiza los hijos en una fila horizontal */
-    justify-content: space-evenly; /* Distribuye el espacio de manera equitativa */
-    align-items: center; /* Centra verticalmente los hijos en el eje transversal */
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
     gap: 2rem;
 }
 
 section > form {
     display: grid;
-    grid-template-columns: 1fr; /* Una sola columna que ocupa todo el ancho */
+    grid: repeat(2, auto) / repeat(2, 1fr);
     width: 100%; /* Opcional: asegura que el formulario use todo el ancho del contenedor */
     gap: 1rem;
 }
@@ -71,4 +65,40 @@ section > form {
 
 #referencias-articles {
     gap: 1rem;
+}
+
+#indice{
+    background-color: rgb(20, 20, 20);
+    padding: 1.5rem;
+    flex: 0 0 100%;
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+#indice a{
+    background-color: rgb(18, 18, 18);
+    padding: 0.75rem 2rem;
+    font-style: normal;
+    text-decoration: none; /* Quita el subrayado */
+}
+
+th, td {
+    text-align: left;
+    padding: 0.5rem;
+}
+
+th{
+    background-color: rgb(39, 39, 39);
+}
+
+fieldset{
+    border: none;
+    background-color: rgb(23, 23, 23);
+}
+
+textarea, input, select, button{
+    background-color: rgb(20, 20, 20);
 }
